@@ -105,34 +105,8 @@ src/
   * **Theme:** The primary color scheme, typography, and spacing are defined in `src/styles/theme.js` (or similar file) to maintain design consistency.
   * **Customization:** All major UI components are found in the `src/components` directory and can be easily customized.
 
------
-
-## 🔗 API Integration
-
-All network requests to the backend API are managed in the `src/services` folder. We use **[e.g., Axios/Fetch]** for making HTTP requests.
-
-The main API endpoints this client interacts with are:
-
-| Action | HTTP Method | Endpoint | Description |
-| :--- | :--- | :--- | :--- |
-| Get Products | `GET` | `/products` | Retrieves the list of all products. |
-| User Login | `POST` | `/auth/login` | Authenticates a user. |
-| Place Order | `POST` | `/orders` | Submits a new order and payment details. |
-
------
-
-## 🤝 Contributing
-
-We welcome contributions\! Please see the guidelines below before starting.
-
-1.  **Fork** the project.
-2.  Create your Feature Branch: `git checkout -b feature/your-feature-name`
-3.  Commit your Changes: `git commit -m 'feat: Add [brief feature description]'`
-4.  Push to the Branch: `git push origin feature/your-feature-name`
-5.  Open a **Pull Request**.
-
------
 
 ## 📜 License
 
 Distributed under the MIT License. See the `LICENSE.md` file for details.
+
