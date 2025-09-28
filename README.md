@@ -1,25 +1,16 @@
  E_Commerce_Shop (React)
+
 Table of Contents
 About The Project
-
 Key Features
-
 Getting Started
-
 Prerequisites
-
 Installation
-
 Available Scripts
-
 Project Structure
-
 Styling and Design
-
 API Integration
-
 Contributing
-
 License
 
 💡 About The Project
@@ -49,25 +40,13 @@ Install dependencies:
 Bash
 
 npm install
-# or
+or
 yarn install
-Set up Environment Variables:
-
-Create a file named .env in the root directory. You must point the application to the backend API endpoint.
-
-Code snippet
-
-# The base URL for the backend API
-REACT_APP_API_BASE_URL=[Your_Backend_API_URL, e.g., http://localhost:5000/api/v1]
-
-# [Optional: Any third-party keys, e.g., Stripe Public Key]
-REACT_APP_STRIPE_PUBLIC_KEY=[Your_Stripe_Publishable_Key]
-Run the application:
 
 Bash
 
 npm start
-# or
+or
 yarn start
 The application will open automatically in your browser at http://localhost:3000.
 
@@ -98,18 +77,6 @@ Technology: [e.g., Tailwind CSS, Material-UI, CSS Modules]
 
 Theme: The primary color scheme, typography, and spacing are defined in src/styles/theme.js (or similar file) to maintain design consistency.
 
-Customization: All major UI components are found in the src/components directory and can be easily customized.
-
-🔗 API Integration
-All network requests to the backend API are managed in the src/services folder. We use [e.g., Axios/Fetch] for making HTTP requests.
-
-The main API endpoints this client interacts with are:
-
-Action	HTTP Method	Endpoint	Description
-Get Products	GET	/products	Retrieves the list of all products.
-User Login	POST	/auth/login	Authenticates a user.
-Place Order	POST	/orders	Submits a new order and payment details.
-
 Export to Sheets
 🤝 Contributing
 We welcome contributions! Please see the guidelines below before starting.
@@ -126,3 +93,4 @@ Open a Pull Request.
 
 📜 License
 Distributed under the MIT License. See the LICENSE.md file for details.
+
